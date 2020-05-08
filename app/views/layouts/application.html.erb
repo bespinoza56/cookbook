@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cookbook</title>
+    <title>Maribel's Cookbook</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,7 +11,14 @@
   </head>
 
   <body>
-    <%= render 'layouts/navigation' %>
-    <%= yield %>
+    <div id="page-content">
+      <%= render 'layouts/navigation' %>
+      <%= yield %>
+    </div>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">&copy; Maribel's Cookbook</span>
+      </div>
+    </footer>
   </body>
 </html>

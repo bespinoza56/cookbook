@@ -1,14 +1,21 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-.splash {
-  /* The image used */
-  background-image: 'kitchen.jpeg';
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+.jumbotron {
+  background-image: asset-url('kitchen.jpeg');
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 400px !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+  height: 100%
 }
