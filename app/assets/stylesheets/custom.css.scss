@@ -1,21 +1,21 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: lightgray;
+}
 .jumbotron {
   background-image: asset-url('kitchen.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px !important;
+  height: 700px !important;
   border-radius: 5px !important;
-  color: white !important;
 }
-html,
-body {
-  height: 100%;
-}
-
 #page-content {
   flex: 1 0 auto;
   background-color: lightgray;
-  height: 100%
 }

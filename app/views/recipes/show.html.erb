@@ -1,0 +1,21 @@
+<h3 class="text-center mt-4 mb-4"><% @recipe.title %></h3>
+<div class="container">
+     <div class="row justify-content-md-center">
+       <div class="col-6">
+        <div class="card text-center mb-5">
+          <div class="card-header">
+            <%= @recipe.title %>
+          </div>
+          <div class="card-body">
+            <p class="card-text"><%= @recipe.recipe %></p>
+            <% link_to 'View Recipe', recipes_path, class: "btn btn-outline-primary" %>
+          </div>
+          <div class="card-footer text-muted">
+            <%= link_to 'View Recipe', recipe_path(@recipe), class: "btn btn-primary" %>
+            <%= link_to 'Edit Recipe', edit_recipe_path(@recipe), class: "btn btn-info" %>
+            <%= link_to 'Delete Recipe', recipe_path(@recipe), class: "btn btn-danger", method: :delete %>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
