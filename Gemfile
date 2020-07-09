@@ -22,7 +22,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Pagination gemfile for Rails 3+
-gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate', '~> 3.1.1'
+gem 'will_paginate-bootstrap'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
